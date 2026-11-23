@@ -1,0 +1,26 @@
+{
+  "chain_length": 8,
+  "anisotropies_tested": [
+    0.0,
+    1.0
+  ],
+  "inverse_temperatures_tested": [
+    0.0,
+    0.35,
+    1.25,
+    3.0
+  ],
+  "receiver_sites": [
+    1,
+    3,
+    5,
+    7
+  ],
+  "time_grid_size": 41,
+  "total_rows": 1312,
+  "max_abs_error_exact_XX_all_temperatures": 2.4424906541753444e-15,
+  "max_beta_spread_exact_XX": 3.164135620181696e-15,
+  "Airy_limit_shift_kappa_0p3": -0.448296343697169,
+  "largest_distance_scaled_shift": -0.34335906350998663,
+  "scope": "Exact temperature-independent receiver law proven only at Delta=0 in an open XX chain for local reset at a boundary site."
+}

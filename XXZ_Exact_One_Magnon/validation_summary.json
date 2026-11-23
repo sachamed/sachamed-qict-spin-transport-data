@@ -1,0 +1,28 @@
+{
+  "model": "periodic spin-1/2 XXZ (single down spin above all-up vacuum)",
+  "Hamiltonian": "sum_j (Jxy/2)(S+_j S-_(j+1)+h.c.) + Delta Sz_j Sz_(j+1)",
+  "state": "vacuum vs one local spin flip at site 0",
+  "finite_ring_L": 8,
+  "independent_Delta_checks": [
+    -1.1,
+    0.0,
+    1.0,
+    2.4
+  ],
+  "max_absolute_ED_vs_Fourier_error": 1.970645868709653e-15,
+  "max_absolute_Delta_signal_variation": 1.0130785099704553e-15,
+  "infinite_chain_asymptotic_distances": [
+    24,
+    48,
+    96,
+    192,
+    384,
+    768
+  ],
+  "kappa": 0.14,
+  "first_crossing_definition": "first physical time of crossing; scanned earliest positive root",
+  "no_fitting": "asymptotic Airy constants fixed before evaluating Bessel first crossings",
+  "numerical_libraries": {
+    "numpy": "2.3.5"
+  }
+}
